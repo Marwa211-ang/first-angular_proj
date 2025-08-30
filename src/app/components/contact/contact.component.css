@@ -1,0 +1,23 @@
+.line{
+    height: 4px;
+    width: 90px;
+    background-color: #2c3e50;
+}
+.form-control:focus{
+    border-color: #dee;
+}
+.top-40{
+    top: 40px !important;
+}
+button.btn-success {
+  background-color: #28a745; 
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button.btn-success:hover {
+  background-color: #218838; /* أغمق شوية عند hover */
+}
+
+

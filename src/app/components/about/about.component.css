@@ -1,0 +1,8 @@
+.about {
+  background-color: var(--main-color);
+    /* يخلي السيكشن يملأ الشاشة */
+}
+.about p {
+  font-size: 18px;
+  line-height: 1.6;
+}

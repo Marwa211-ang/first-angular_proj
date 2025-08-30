@@ -1,0 +1,29 @@
+footer {
+  background-color: #2c3e50; /* نفس لون الـnavbar */
+}
+
+footer .copy {
+  background-color: #1a252f;
+}
+
+footer .fa-brands,
+footer .fa-solid {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+footer a {
+  color: #1abc9c; /* hover effect */
+  text-decoration: none; /* يشيل الخط */
+  color: inherit;        /* يخلي اللون زي النص */
+
+  outline: none; /* يشيل التحديد الأزرق */
+}
+footer a i {
+  color: white; /* اللون الأساسي */
+  transition: color 0.3s ease; /* عشان يبقى في نعومة */
+}
+
+footer a:hover i {
+  color: #1abc9c; /* أخضر عند الـ hover */
+}
