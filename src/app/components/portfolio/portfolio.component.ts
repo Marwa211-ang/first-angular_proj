@@ -9,14 +9,14 @@ export class PortfolioComponent implements OnInit {
   flag:boolean = true;
   modelImg:string = '';
   srcs: string[] = [
-    'assets/images/poert1.png',
-    'assets/images/port2.png',
-    'assets/images/port3.png',
-    'assets/images/poert1.png',
-    'assets/images/port2.png',
-    'assets/images/port3.png',
+  'assets/images/poert1.png',
+  'assets/images/port2.png',
+  'assets/images/port3.png',
+  'assets/images/poert1.png',
+  'assets/images/port2.png',
+  'assets/images/port3.png',
+];
 
-  ]
 
   hideModel( element: EventTarget | null, img: HTMLImageElement):void {
     if(element == img ) return;
